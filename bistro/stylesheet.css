@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Lobster;
+    src: url(Lobster-Regular.ttf);
+}
+nav {
+    margin: 2em -6em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #c57300; 
+}
+body {
+        background-color: #bfb4a9;
+        font-family: sans-serif;
+        margin: 0 10%;
+
+    }
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #191919;
+
+    padding: 10px;
+
+}
+h1 {
+    color: #cf740c;
+    text-align: center;
+    font-family: Lobster;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-bottom: 1px solid #f02d2d;
+    margin-top: 30px
+
+}
+h2 {
+    color: #cf740c;
+    font-family: Lobster;
+    font-size: 1.5em;
+    letter-spacing: .1em;
+}
+footer {
+  border-top: 1px solid #f02d2d;
+  text-align: center;
+  padding-top: 1em;
+}
+footer img {
+width: 40px;
+height: 40px;
+margin-left: .5em;
+margin-right: .5em;
+}
+
+a {
+  color: #e14747;
+}
+a:visited {
+  color: #f02d2d;
+}
+a:hover {
+  color: #0d9ba8;
+}
+a:active {
+  color: #a50b0b;
+}

@@ -1,0 +1,102 @@
+@charset "UTF-8";
+body {
+  font-size: 100%;
+  line-height: 175%;
+  margin: 0 15% 0;
+
+  font-family: sans-serif;
+  margin: 0 10%;
+
+    font-family: sans-serif;
+  background: #bfb4a9 url(images/blackgoose.png) no-repeat center 100px fixed;
+}
+header {
+  margin-top: 0;
+  padding: 3em 1em 2em 1em;
+  text-align: center;
+  background: url(images/bluedot.png) center top repeat-x;
+  background: 
+    url(images/bluedot.png) left top repeat-y,
+    url(images/bluedot.png) right top repeat-y,
+    url(images/gooseshadow.png) 90% bottom no-repeat;
+  background-color: rgba(255,255,255,.5);
+}
+
+@font-face {
+  font-family: Lobster;
+  src: url(Lobster-Regular.ttf);
+}
+
+nav {
+  margin: 2em -6em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #c57300; 
+}
+
+a {
+  color: #e14747;
+}
+a:visited {
+  color: #f02d2d;
+}
+a:hover {
+  color: #0d9ba8;
+}
+a:active {
+  color: #a50b0b;
+}
+
+h1 {
+  font-family: serif;
+  text-transform: uppercase;
+  font-family: Lobster;
+  border-bottom: 1px solid #f02d2d;
+  color: #cc7e26;
+  font-weight: normal;
+
+}
+h2 {
+  font-family: Lobster;
+  font-size: 1.5em;
+  letter-spacing: .1em;
+  text-transform: capitalize;
+
+  text-align: center;
+  color: #c60;
+}
+dt {
+  color: #0c2850;
+  font-weight: bold;
+}
+strong {
+  font-style: italic;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#info p {
+  font-style: italic;
+}
+.price {
+  font-family: Georgia, serif;
+  font-style: italic;
+}
+p.warning, sup {
+  font-size: small;
+}
+.label {
+  font-weight: bold;
+  font-variant: small-caps;
+  font-style: normal;
+}
+
+h2 + p {
+  text-align: center;
+  font-style: italic;
+}
+
+footer {
+  color:#f02d2d
+}
