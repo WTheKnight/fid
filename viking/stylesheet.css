@@ -1,0 +1,195 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Hedvig;
+    src: url(fonts/HedvigLettersSerif-Regular-VariableFont_opsz.ttf);
+    }
+    @font-face {
+        font-family: SF6;
+        src: url(fonts/SF6.ttf);
+        }
+@font-face {
+    font-family: Playfair;
+    src: url(fonts/PlayfairDisplay-VariableFont_wght.ttf)
+    }
+@font-face {
+    font-family: PlayfairItal;
+    src: url(fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf)
+    }
+    @font-face {
+        font-family: Skranji;
+        src: url(fonts/Skranji-Regular.ttf)
+        }
+        @font-face {
+            font-family: SkranjiBold;
+            src: url(fonts/Skranji-Bold.ttf)
+            }
+.header {
+    background-color: #f1f1f1;
+    background-attachment:fixed; 
+    background-image: url(images/firelongshipblur.png); 
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    padding: 20px;
+    text-align: center;
+    }
+  .topnav {
+    overflow: hidden;
+    background-color: #060205;
+    }
+.topnav a {
+    float: left;
+    display: block;
+    padding: 14px 16px;
+    color: #f2f2f2;
+    text-decoration: none;
+    font-family: SkranjiBold;
+    }
+    body { 
+            width: fit-content;
+            margin: auto;
+            border: 15px ridge  #110e17;
+            outline-offset: 10px;
+            background: #0f0b0d;
+    }
+        .main {
+        background-color: rgb(251, 241, 224);
+        background-attachment:scroll; 
+        background-image: url(images/subtlesymbol.png); 
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h1 { 
+        font-family: Skranji;
+        text-align: center;
+        font-size: 3.5em;
+        text-shadow: 2px 2px #74889c;
+        border-bottom: 5px solid #481d3b;
+        color: #000000;
+        margin-top: 30px;
+        text-transform: capitalize;
+        margin: 0em 0.3em;
+    }
+    h2 {
+        margin-left: 2.5em;
+        text-align: left;
+        font-family: Hedvig; font-size: 22px;
+        color: #5f597f;
+        border-bottom: 1px solid #5f597f;
+    }
+    nav { 
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: #66597f; 
+    }
+    h3 {
+        text-align: center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        color: #5c1891;
+        text-decoration: underline;
+    }
+    footer {
+	  border-top: 2.5px solid #481d3b;
+	  text-align: center;
+	  padding-top: 1em;
+      margin: 0em 21em;
+      color: #0d8970;
+
+    }
+    footer img {
+    margin-left: .5em;  margin-right: .5em; 
+    }       
+    p {
+        font-family:Arial, Helvetica, sans-serif;
+        color:#000000;
+
+        margin-left: .5em;
+    }
+    ul {
+        color:#000000;
+    }
+    h4 {
+
+        margin-left: 1.5em;
+        color:#19022b;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 1.1em;
+
+    }
+    h5 {
+        margin-left: 1.5em;
+        font-size: 1em;
+
+    }
+fieldset{
+    border: #000000;
+}
+
+iframe
+{
+    margin-left: 1.5em;
+}
+    a {
+        color: #481d3b;
+      }
+      a:visited {
+        color: #4a505f;
+      }
+      a:hover {
+        color: rgb(173, 204, 254);
+       
+      }
+      a:active {
+        color: #79597f;
+      }
+
+        .grow { 
+        transition: all .2s ease-in-out; 
+        }
+
+        .grow:hover { 
+        transform: scale(1.1); 
+        }
+
+
+        .accordion {
+            background-color: rgb(199, 185, 162);
+            background-image: url(images/subtlesymbol.png); 
+            color: #444;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            transition: 0.4s;
+          }
+          
+          .active, .accordion:hover {
+            background-color: #ccc; 
+          }
+          
+          .panel {
+            padding: 0 18px;
+            display: none;
+
+            background-color: rgb(255, 248, 237);
+            overflow: hidden;
+          }
+
+          .column {
+            float: left;
+            width: 50%;
+            padding: 10px;
+          }
+          
+          .column img {
+            margin-top: 12px;
+          }
+
+          .row:after {
+            content: "";
+            display: table;
+            clear: both;
+          }
